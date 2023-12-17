@@ -1,11 +1,11 @@
 #ifndef GLOBALDEFINES_H
 #define GLOBALDEFINES_H
 
-#define PROJ_DIR "~/Documents/hust_efi"
+#define PROJ_DIR "~/FIXED_TRUE_PATH_TO_THIS_PROJECT"	// Change this!
 
-// Uncomment this line if run simulation with SystemC
-#define SYSTEMC
-
+/* Uncomment the line below if you want to simulate with SystemC
+ * #define SYSTEMC
+ */
 
 #define STROKE_LENGTH       3.7 // inches
 #define BORE_SIZE		    3.4 // inches

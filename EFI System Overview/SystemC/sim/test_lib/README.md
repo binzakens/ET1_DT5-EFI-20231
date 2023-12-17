@@ -1,3 +1,3 @@
 $ make clean
 
-$ make <Tab><Tab> to see options
+$ make $<Tab>$<Tab> to see options

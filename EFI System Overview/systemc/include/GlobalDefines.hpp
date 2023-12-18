@@ -1,20 +1,22 @@
 #ifndef GLOBALDEFINES_H
 #define GLOBALDEFINES_H
 
-#define PROJ_DIR "~/FIXED_TRUE_PATH_TO_THIS_PROJECT"	// Change this!
+#define PROJ_DIR "/home/bi/Documents/ET1_DT5-EFI-20231"
 
-/* Uncomment the line below if you want to simulate with SystemC
- * #define SYSTEMC
+/*
+ * Comment the line below if you want to debug/compile normal simulation with g++ only.
+ * If left default, software will automatically compile and execute under SystemC structure.
  */
+#define SYSTEMC
 
 #define STROKE_LENGTH       3.7 // inches
 #define BORE_SIZE		    3.4 // inches
 #define CYLINDERS		    4   // Number of cylinders
-#define CID  			    (3.1416 * STROKE_LENGTH * BORE_SIZE * BORE_SIZE * CYLINDERS) / 4 	// Cubic inch displacement				  
+#define CID  			    (3.1416 * STROKE_LENGTH * BORE_SIZE * BORE_SIZE * CYLINDERS) / 4 // Cubic inch displacement				  
 #define DIVIDE_PULSE	    1   // Injection divide number for number of injections per engine cycle
-#define INJ_FLOW		32  // lbs/hour
-#define INJ_OPEN_TIME	   	1.3 // Injector open time in ms
-#define NUM_TEETH		60  // Number of teeth on crankshaft
+#define INJ_FLOW		    32  // lbs/hour
+#define INJ_OPEN_TIME	    1.3 // Injector open time in ms
+#define NUM_TEETH			60  // Number of teeth on crankshaft
 #define NUM_LOST_TEETH		2   // Number of lost teeth on crankshaft
 #define VE_ROWS             10
 #define VE_COLS             8
@@ -88,8 +90,8 @@
 #define COLD_ADVANCE_PATH   "ColdAdvanceTable.txt"
 #define MAPSS_PATH  	  	"MAP.txt"
 #define MATSS_PATH  	  	"MAT.txt"
-#define EGOSS_PATH		"EGO.txt"
-#define CLTSS_PATH		"CLT.txt"
-#define TPSSS_PATH		"TPS.txt"
+#define EGOSS_PATH		  	"EGO.txt"
+#define CLTSS_PATH		  	"CLT.txt"
+#define TPSSS_PATH		  	"TPS.txt"
 
 #endif

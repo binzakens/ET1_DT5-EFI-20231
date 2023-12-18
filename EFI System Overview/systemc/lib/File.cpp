@@ -57,7 +57,9 @@ bool File::write(const char* path, float** table, int rows, int cols) {
 			file << endl;
 		}
 	}
+
 	file.close();
+
 	return 1;
 }
 

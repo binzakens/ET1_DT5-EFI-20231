@@ -18,7 +18,7 @@ b) $ sudo apt-get update && sudo apt upgrade
 
 $ sudo apt-get -y install gtkwave 
 
-2. Xilinx SDK 
+2. Xilinx SDK, download at https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools.html
 
 Imply C++ source code to the board via UART protocol. Using such lib like <stdio.h> <stdlib.h> and include in "platform.h" "xil_printf.h" "xgpio.h" "xtime_l.h"
 

@@ -17,3 +17,5 @@ $ git commit -m "Initial commit"	// you can type whatever you want, personally, 
 $ git config --global user.email "youremail@xxxx.com"
 
 5. If you don't have any Personal access tokens, create one and redo this again, good luck!
+
+6. Or follow this guide instead :)) https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github
